@@ -8,7 +8,21 @@ public class Main {
         FileWriter fileWriter=new FileWriter("Song.txt");
         fileWriter.write("XXTENTATION\n");
         fileWriter.write("Moonlight\n");
-        fileWriter.write("Spotlight, uh, moonlight, uh Spotlight, uh");
+        fileWriter.write("Spotlight, uh, moonlight, uh Spotlight, uhSpotlight, uh, moonlight, uh" +
+                "Nigga, why you trippin’? Get your mood right, uh" +
+                "Shawty look good in the moonlight" +
+                "All these pussy niggas so bad mind" +
+                "Spotlight, moonlight" +
+                "Nigga, why you trippin’? Get your mood right" +
+                "Shawty look good in the moonlight" +
+                "All these pussy niggas so bad mind" +
+                "Spotlight, uh, moonlight" +
+                "Nigga, why you trippin’? Get your mood right, uh" +
+                "Shawty look good in the moonlight" +
+                "All these pussy niggas so bad mind" +
+                "Spotlight, moonlight" +
+                "Nigga, why you trippin’? Get your mood right" +
+                "Shawty look good in the moonlight");
         fileWriter.close();
         FileReader fileReader=new FileReader("Song.txt");
         Scanner scanner=new Scanner(fileReader);
