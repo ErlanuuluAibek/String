@@ -40,7 +40,7 @@ public class Song {
     public String toString() {
         return "Song{" +
                 "author='" + author + '\'' + '\'' +
-                ", title='" + title + '\'' +" + text "+text+
+                ", title='" + title + '\'' +" + text: "+text+
                 '}';
     }
 }
